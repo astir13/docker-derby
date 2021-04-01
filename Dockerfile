@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11-jre-hotspot
 
-MAINTAINER Andreas Zitzelsberger "az@az82.de"
+MAINTAINER Stefan Pielmeier "stefan<at>symlinux.com"
 
 ADD newkeys.sh /root/newkeys.sh
 

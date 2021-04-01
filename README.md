@@ -1,7 +1,8 @@
+# Thanks
+To az82/docker-derby for providing a good and simple starting point for this fork.
+
 # Apache Derby Docker Image
 This repository provides a Docker image for Apache Derby using OpenJDK JRE.
-
-You can find the built images at https://hub.docker.com/r/az82/docker-derby/.
 
 ## Software Versions
 * Derby: 10.15.2.0 (http://db.apache.org/derby/index.html)
@@ -25,5 +26,3 @@ You can find the built images at https://hub.docker.com/r/az82/docker-derby/.
 * restart the docker, the existence of the keys will make it a secure docker server requiring sslAuthentication for each access client
 * if you mount the keys to a host directory, they will survive restartin the docker
 
-## Build Status
-* [Travis CI: ![Build Status](https://travis-ci.org/az82/docker-derby.svg?branch=master)](https://travis-ci.org/az82/docker-derby)
